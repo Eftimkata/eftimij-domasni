@@ -11,22 +11,19 @@
     <title>Домашни на Ефтимиј</title>
 </head>
 
-<style>
+<style>    
+    * a{
+        text-decoration: none;
+    }
+    
     .eg {
         text-decoration: none;
-        color: white;
+        color: rgb(0, 0, 0);
         border: 2px solid white;
-        border-top-left-radius: 80px;
-        border-bottom-left-radius: 80px;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        padding: 10px;
-        transition: .5s;
-        font-size: 30px;
-    }
-
-    .eg:hover {
         border-radius: 80px;
+        padding: 10px;
+        font-size: 30px;
+        background-color: rgb(255, 255, 255);
     }
 
     .ng {
@@ -63,6 +60,34 @@
         color: black;
     }
 
+    .i1 {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        border: 2px solid white;
+        border-radius: 15px;
+        padding: 10px;
+        font-size: 30px;
+        transition: .5s all;
+    }
+
+    .i1:hover {
+        border-radius: 80px;
+    }
+   
+    .back {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        border: 2px solid white;
+        border-radius: 80px;
+        padding: 10px;
+        font-size: 30px;
+        transition: .5s all;
+    }
+
+    .back:hover {
+        border-radius: 15px;
+    }
+
 </style>
 
 <body style="background-color: black; margin: 0; height: 100vh; overflow: hidden;">
@@ -76,13 +101,26 @@
     
     <div class="odd" style="color: white; margin: 7px; padding: 15px;">
         <p style="font-size: 25px;">Основно Училиште:</p>
-        <a href="./VIII/index.html" class="eg">VIII</a> <!-- FIXME: CHANGE ADRESS TO GITHUB MATCH --->  
+        <a href="" class="eg">VIII</a>  
         <a href="" class="ng">IX</a>
     </div>
 
-</body>
-<footer>
-    <h4 style="color: white; text-align: center; margin-top: 530px;">Дизајнирано од Ефтимиј Новаковски</h4>
+    <div style="margin: 7px; padding-top: 80px; padding-left: 17px;">
+        <a href="./i1/index.html" class="i1">Правење Веб-Сајтови - ИЗБОРЕН #1</a>
+    </div>
+
+    <div style="margin: 7px; padding-top: 40px; padding-left: 17px;">
+        <a href="./bio/index.html" class="i1">Биологија</a>
+    </div>
+    
+    <div style="margin: 7px; padding-top: 80px; padding-left: 17px;">
+        <a href="../index.html" class="back">Назад</a>
+    </div>
+    
+    
+    <h4 style="color: white; text-align: center; padding-top: 10%;">Дизајнирано од Ефтимиј Новаковски</h4>
     <h4 style="color: white; text-align: center;">Со Material 3 Expressive дизајн. <a href="https://m3.material.io/" class="learn">Дознај Повеќе</a></h4>
-</footer>
+
+
+</body>
 </html>
